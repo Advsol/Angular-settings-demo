@@ -1,0 +1,1 @@
+"%ProgramFiles(x86)%\Microsoft SDKs\Azure\AzCopy\AzCopy.exe" /source:C:\temp\_innovations\settings-demo\dist\settings-demo /Dest:https://asiprostorage.blob.core.windows.net/innovations/settings-demo /SetContentType /Y /XO /DestKey:[hidden] /S

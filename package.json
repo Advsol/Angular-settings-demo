@@ -4,10 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --deploy-url http://localhost/settings/",
+    "build": "ng build --deploy-url https://imis.azureedge.net/innovations/settings-demo/ ",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postbuild": "node body-cleanup.js && sync-settings-demo.bat" 
   },
   "private": true,
   "dependencies": {
