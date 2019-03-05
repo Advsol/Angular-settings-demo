@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --deploy-url https://imis.azureedge.net/innovations/settings-demo/ ",
+    "build": "ng build --deploy-url https://asiprostorage.blob.core.windows.net/innovations/settings-demo/ --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
