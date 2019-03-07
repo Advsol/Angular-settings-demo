@@ -1,4 +1,4 @@
-import {DataContract} from  '../../asi-core/index';
+import {DataContract} from  'asi-core';
 
 export class ContentItemData extends DataContract {
     $type = 'Asi.Soa.Core.DataContracts.ContentItemData, Asi.Contracts';

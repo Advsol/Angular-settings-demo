@@ -3,8 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule,HTTP_INTERCEPTORS } from '@angular/common/http'; 
 
 import { AppComponent } from './app.component';
-import { AppConstantService } from 'src/asi-core/app-constants.service';
-import { AuthorizationInterceptor } from 'src/asi-core/authorization-interceptor';
+import { AsiCoreModule } from 'asi-core';
 
 @NgModule({
   declarations: [
@@ -12,16 +11,9 @@ import { AuthorizationInterceptor } from 'src/asi-core/authorization-interceptor
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    AsiCoreModule
   ],
-  providers: [
-    AppConstantService,
-    {
-        provide: HTTP_INTERCEPTORS,
-        useClass: AuthorizationInterceptor,
-        multi: true,
-    },
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
