@@ -1,10 +1,8 @@
 # Angular 9 Settings Demo
 This iPart demonstrates, using Angular 9, how to grab the settings for your iPart.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
-
 ## Build
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--deployUrl` flag when running ng build:
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--deployUrl` flag when running ng build to ensure the correct asset paths for deployment in iMIS:
 
 For CDN style deployment:
 `ng build --deployUrl=https://[SLD.FLD]/[folder]/ `  
@@ -13,10 +11,14 @@ For zip style deployment:
 
 
 ## To replicate this iPart 
+- use `ng new` to create a new Angular project.
+
 Edit the index.html file and remove everything except the Angular componet tag, e.g.
 ```html
 <app-root></app-root>
 ```
+- Follow the instructions above on how to build, using `--deployUrl`
+- For URL/CDN style deployment you can either publish to your external hosting, or make sure your paths match a webserver running on your local machine (as long as you have provided access to it, through your firewalls)
 
 ## Deploy
 
