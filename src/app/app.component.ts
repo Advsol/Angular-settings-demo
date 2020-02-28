@@ -1,16 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IpartSettingsService } from './ipart-settings.service';
 import{ ContentItemData } from './models/content-item-data';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: ['./app.component.css']
 })
-
-export class AppComponent implements OnInit {
-
-  title = 'Innovations settings-demo';
+export class AppComponent {
+  title = 'Hello iMIS!';
   data: MySettings; // this is JSON data
 
   constructor(private settings: IpartSettingsService) {
@@ -19,7 +17,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
     this.settings.GetSettings().subscribe((data: ContentItemData) =>{
-      this.data =  data.Data.Settings as MySettings;
+      this.data =  data.Data as MySettings;
     });
   }
 }

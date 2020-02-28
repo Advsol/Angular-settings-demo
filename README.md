@@ -1,11 +1,19 @@
 # SettingsDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
-## Development server
+## Development 
+Edit the index.html file and remove everything except the Angualr componet tag, e.g.
+```html
+<app-root></app-root>
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You will need to use the --deployUrl flag when running ng build
 
+For CDN style deployment:
+`ng build --deployUrl=https://bity/innovations/ `  
+For zip style deployment:
+`ng build --deployUrl=~/iPartSource/[zipfileName]/[foldername]/index.html ` 
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.

@@ -1,4 +1,4 @@
-import {DataContract} from  'asi-core';
+import {DataContract} from  '@advsol/core';
 
 export class ContentItemData extends DataContract {
     $type = 'Asi.Soa.Core.DataContracts.ContentItemData, Asi.Contracts';
