@@ -5,10 +5,11 @@ This iPart demonstrates, using Angular 9, how to grab the settings for your iPar
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--deployUrl` flag when running ng build to ensure the correct asset paths for deployment in iMIS:
 
 For CDN style deployment:
-`ng build --deployUrl=https://[SLD.FLD]/[folder]/ `  
+`ng build --deployUrl=https://[SLD.FLD]/[folder]/index.html `  
 For zip style deployment:
 `ng build --deployUrl=~/iPartSource/[zipfileName]/[foldername]/index.html `
 
+_`index.html` is the entry point for you iPart_
 
 ## To replicate this iPart 
 - use `ng new` to create a new Angular project.
