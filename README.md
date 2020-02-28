@@ -1,4 +1,5 @@
-# SettingsDemo
+# Angular 9 Settings Demo
+This iPart demonstrates, using Angular 9, how to grab the settings for your iPart.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
 
