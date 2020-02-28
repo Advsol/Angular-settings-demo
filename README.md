@@ -1,5 +1,5 @@
 # Angular 9 Settings Demo
-This Angular 9 iPart demonstrates how to call the iMIS API via the `[@advsol/core](https://www.npmjs.com/package/@advsol/core)` npm package.
+This Angular 9 iPart demonstrates how to call the iMIS API via the [@advsol/core](https://www.npmjs.com/package/@advsol/core) npm package.
 
 ## Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--deployUrl` flag when running ng build to ensure the correct asset paths for deployment in iMIS:
