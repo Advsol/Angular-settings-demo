@@ -43,7 +43,10 @@ Edit the index.html file and remove everything except the Angular componet tag, 
 ```html
 <app-root></app-root>
 ```
+- Install the NPM package using `npm install @advsol/core`
+- Follow the instruction here on how to use (@advsol/core)[https://www.npmjs.com/package/@advsol/core] or copy the examples in the `src/app` folder
 - Follow the instructions above on how to build, using `--deployUrl`
 - For URL/CDN style deployment, you can either publish to your external hosting, or make sure your paths match a webserver running on your local machine (as long as you have provided access to it, through your firewalls)
+- Follow the 'Testing your iPart' instructions above to deploy your new iPart.
 
 
