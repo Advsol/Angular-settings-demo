@@ -5,9 +5,9 @@ This Angular 9 iPart demonstrates how to call the iMIS API via the [@advsol/core
 Run `ng build` to build the project. The build artifacts are stored in the `dist/` directory. Use the `--deployUrl` flag when running ng build to ensure the correct asset paths for deployment in iMIS:
 
 For CDN style deployment:
-`ng build --deployUrl=https://[SLD.FLD]/[folder]/index.html `  
+`ng build --deployUrl=https://[SLD.FLD]/[folder] `  
 For zip style deployment:
-`ng build --deployUrl=~/iPartSource/[zipfileName]/[foldername]/index.html `
+`ng build --deployUrl=~/iPartSource/[zipfileName]/[foldername]`
 
 _`index.html` is the entry point for you iPart_
 
