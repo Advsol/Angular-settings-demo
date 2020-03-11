@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { IpartSettingsService } from './ipart-settings.service';
 import{ ContentItemData } from './models/content-item-data';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { VirtualTimeScheduler } from 'rxjs';
 
 @Component({
   selector: 'app-root',
