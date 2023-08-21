@@ -8,6 +8,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = ' iMIS!';
   data: MySettings; // this is JSON data
@@ -18,7 +19,9 @@ export class AppComponent {
   // Using commonService
   ngOnInit(): void {
     this.settings.GetSettings().subscribe((data: ContentItemData) =>{
+      console.log("this.data: " + data.$type);
       this.data =  data.Data as MySettings;
+      
     });
   }
 

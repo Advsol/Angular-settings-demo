@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {APP_BASE_HREF} from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { AsiCoreModule } from '@advsol/core';
@@ -12,7 +13,7 @@ import { AsiCoreModule } from '@advsol/core';
     BrowserModule,
     AsiCoreModule
   ],
-  providers: [],
+  providers: [{provide: APP_BASE_HREF, useValue: '/iPart/'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
