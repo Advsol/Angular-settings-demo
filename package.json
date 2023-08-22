@@ -1,17 +1,17 @@
 {
   "name": "settings-demo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "zip": "Compress-Archive -Path ./dist/app.zip -DestinationPath ./dist/app"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
+    "@advsol/core": "^0.0.14",
     "@angular/animations": "^16.1.8",
     "@angular/common": "^16.1.8",
     "@angular/compiler": "^16.1.8",
