@@ -11,7 +11,7 @@
   },
   "private": true,
   "dependencies": {
-    "@advsol/core": "^0.0.14",
+    "@advsol/core": "^0.0.15",
     "@angular/animations": "^16.1.8",
     "@angular/common": "^16.1.8",
     "@angular/compiler": "^16.1.8",
